@@ -1,0 +1,6 @@
+ANOTACIONES CURSO WEB
+estan compuestos:
+html
+css
+javascripts
+asses : fotos y etc
