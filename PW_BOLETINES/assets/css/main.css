@@ -1,0 +1,93 @@
+/*
+COLORES:
+
+#004F6E   RESALTAR
+#42A6C6   OK
+#F6F4E1   FONDO
+#F0B949   ALERTAS
+#F56E47   ERRORES
+
+*/
+
+/* IMPORTAR FUENTES*/
+html {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.container{
+  background-color: #FEE140;
+  background-image: linear-gradient(187deg, #FEE140 0%, #FA709A 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+  max-width: 80%;
+  max-height: 90%;
+  height: 100%;
+  width:100%;
+  border-radius: 1%;
+}
+/* RETIRAR LA LINEA */
+a{
+  text-decoration: none;
+  color: #FA709A;
+}
+/* aplicar todas mayusculas */
+h1{
+  text-transform: capitalize;
+  border-bottom: solid #42A6C6 2px;
+}
+
+th{
+  text-align: left;
+  background-color:#42A6C6;
+  color: #F6F4E1 ;
+}
+
+table{
+  background-color: #d3f2d1;
+}
+table td, table th{
+  padding: 1em;
+}
+
+
+table tr:nth-child(even){
+  background-color:#d6d4d1 ;
+}
+table{
+  width: 100%;
+  border-spacing: 0px;
+  /*sombra de los bordes de la tabla*/
+  box-shadow: 6px 6px 6px;
+  border-radius: 5px;
+}
+.item-header{
+  border-bottom:  #FA709A solid 2px;
+  padding: 1%;
+}
+i{
+  color: #aaa;
+}
+
+p{
+  padding: 1%;
+  vertical-align:middle;
+  text-align: justify;
+}
+address{
+  text-transform: capitalize;
+  padding: 2%;
+}
+
+.mensaje{
+  background-color: #c1d2e3;
+  border-radius: 1%;
+box-shadow: 1PX 1PX 3PX 1PX;
+}
+span{
+  padding-right:  1em;
+  color: black;
+}

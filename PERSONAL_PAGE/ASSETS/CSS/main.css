@@ -1,0 +1,106 @@
+
+body{
+  font-family: 'Karla', sans-serif;
+}
+header{
+  width: 100%;
+  border: 1px red solid;
+  position:static;
+
+}
+header div{
+  display: inline-grid;
+  margin: 2px;
+  padding: 0.5em;
+  vertical-align:middle;
+  text-align: center;
+}
+header div h1{
+  display: inline-grid;
+  text-transform: capitalize;
+  vertical-align:middle;
+  text-align: center;
+}
+header div img{
+  width: 50PX;
+  height: 70PX;
+}
+section{
+  max-height: 600px;
+  min-height: 600px;
+}
+.userArea{
+  width: 100%;
+  margin: 1px;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  vertical-align: top;
+}
+.userArea div{
+    margin: 1% 0.5%;
+}
+.userArea input{
+  text-transform: capitalize;
+}
+.toolSection{
+  width: 15%;
+  overflow-y: scroll;
+}
+.WorkSection{
+  width: 85%;
+  overflow-y: scroll;
+}
+.sistemSpace{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  vertical-align: bottom;
+
+}
+.sistemSpace {
+  width: 100%;
+  background-color: gray;
+  border: 2px solid orange;
+}
+.sistemSpace p{
+  padding: 0.5em 2em;
+}
+label{
+  text-transform: capitalize;
+  padding: 0.2em;
+  text-decoration-style: double;
+}
+form{
+  padding: 1%;
+}
+.campo {
+  display: inline-block;
+  min-width: 45%;
+
+}
+.formField{
+  min-width: 100%;
+  border-radius: 5PX;
+  padding: 0.5em;
+
+  }
+.campo: {
+  background-color: green;
+
+}
+.formField{
+  font-family: 'Poppins', sans-serif;
+
+}
+.range{
+  padding: 1em;
+}
+
+.btn-Guardar{
+background-color: #00ee00;
+color: white;
+font-size: 1em;
+}

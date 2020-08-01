@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,90,121,1) 35%, rgba(214,0,255,1) 100%);
+}
+input{
+    text-transform: capitalize;
+}
+h3 {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    text-transform: capitalize;
+}
+.sectionWork{
+    height: 100vh;
+    }
+
+table{
+    box-shadow: 1px 1px 3px 2px gray;
+}
+tr{
+    border-bottom: indigo solid 1px;
+}
+
+th{
+    text-transform: uppercase;
+}
+td{
+    text-transform: capitalize;
+    
+}
+button{
+    text-transform: capitalize;
+    margin: 2em 10em;
+}
+.rowSelect{
+    background-color:lightblue;
+}
+
